@@ -3,11 +3,11 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\WpDie;
 
-use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgsIFactory;
+use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgsFactory;
 
 defined('ABSPATH') || exit;
 
-interface IWpDieArgsFactory extends IWpFunctionArgsIFactory
+interface IWpDieArgsWpFunctionArgsFactory extends IWpFunctionArgsFactory
 {
     public function make(): IIWpDieArgs;
 }

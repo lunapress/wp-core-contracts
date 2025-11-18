@@ -8,7 +8,7 @@ use LunaPress\CoreContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 
-interface IWpDieFunctionI extends IExecutableFunction
+interface IWpDieFunction extends IExecutableFunction
 {
     public function message(string|IWpError $message): self;
     public function title(string|int $title): self;

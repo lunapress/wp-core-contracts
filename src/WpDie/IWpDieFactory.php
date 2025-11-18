@@ -8,7 +8,7 @@ use LunaPress\Wp\CoreContracts\IWpError;
 
 defined('ABSPATH') || exit;
 
-interface IWpDieIFactory extends IFactory
+interface IWpDieFactory extends IFactory
 {
-    public function make(string|IWpError $message): IWpDieFunctionI;
+    public function make(string|IWpError $message): IWpDieFunction;
 }

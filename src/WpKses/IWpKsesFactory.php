@@ -7,7 +7,7 @@ use LunaPress\CoreContracts\Support\IFactory;
 
 defined('ABSPATH') || exit;
 
-interface IWpKsesIFactory extends IFactory
+interface IWpKsesFactory extends IFactory
 {
-    public function make(string $content, array|string $allowedHtml): IWpKsesFunctionI;
+    public function make(string $content, array|string $allowedHtml): IWpKsesFunction;
 }

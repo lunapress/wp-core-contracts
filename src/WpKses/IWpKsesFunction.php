@@ -7,7 +7,7 @@ use LunaPress\CoreContracts\Support\IExecutableFunction;
 
 defined('ABSPATH') || exit;
 
-interface IWpKsesFunctionI extends IExecutableFunction
+interface IWpKsesFunction extends IExecutableFunction
 {
     public function content(string $content): self;
 
