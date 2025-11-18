@@ -9,5 +9,5 @@ defined('ABSPATH') || exit;
 
 interface IWpDieArgsFactory extends IWpFunctionArgsFactory
 {
-    public function make(): IIWpDieArgs;
+    public function make(): IWpDieArgs;
 }

@@ -12,7 +12,7 @@ interface IWpDieFunction extends IExecutableFunction
 {
     public function message(string|IWpError $message): self;
     public function title(string|int $title): self;
-    public function args(IIWpDieArgs|int $args): self;
+    public function args(IWpDieArgs|int $args): self;
 
     public function executeWithArgs(array $args): never;
 }

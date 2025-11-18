@@ -7,7 +7,7 @@ use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgs;
 
 defined('ABSPATH') || exit;
 
-interface IIWpDieArgs extends IWpFunctionArgs
+interface IWpDieArgs extends IWpFunctionArgs
 {
     public function response(?int $response): self;
 
