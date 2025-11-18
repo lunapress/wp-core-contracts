@@ -1,0 +1,18 @@
+<?php
+declare(strict_types=1);
+
+namespace LunaPress\Wp\CoreContracts\WpDie;
+
+use LunaPress\Wp\CoreContracts\IWpError;
+use LunaPress\CoreContracts\Support\IExecutableFunction;
+
+defined('ABSPATH') || exit;
+
+interface IWpDieFunctionI extends IExecutableFunction
+{
+    public function message(string|IWpError $message): self;
+    public function title(string|int $title): self;
+    public function args(IIWpDieArgs|int $args): self;
+
+    public function executeWithArgs(array $args): never;
+}
