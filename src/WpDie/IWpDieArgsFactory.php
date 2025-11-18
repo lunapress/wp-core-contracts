@@ -7,7 +7,7 @@ use LunaPress\CoreContracts\Support\WpFunction\IWpFunctionArgsFactory;
 
 defined('ABSPATH') || exit;
 
-interface IWpDieArgsWpFunctionArgsFactory extends IWpFunctionArgsFactory
+interface IWpDieArgsFactory extends IWpFunctionArgsFactory
 {
     public function make(): IIWpDieArgs;
 }
