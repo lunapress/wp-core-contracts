@@ -14,11 +14,11 @@ interface IWpKsesFunction extends IExecutableFunction
 
     public function allowedHtml(array|string $allowedHtml): self;
 
-    public function allowedProtocols(array|WpArray $allowedProtocols): self;
+    public function allowedProtocols(array $allowedProtocols): self;
 
     public function getContent(): string;
     public function getAllowedHtml(): array|string;
-    public function getAllowedProtocols(): array|WpArray;
+    public function getAllowedProtocols(): array;
 
     public function executeWithArgs(array $args): string;
 }
