@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\CoreContracts\WpDie;
+namespace LunaPress\Wp\CoreContracts\Functions\WpDie;
 
 use LunaPress\FoundationContracts\Support\WpFunction\IWpFunctionArgs;
 use LunaPress\FoundationContracts\Support\WpFunction\WpUnset;

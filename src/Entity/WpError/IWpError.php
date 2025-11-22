@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\CoreContracts;
+namespace LunaPress\Wp\CoreContracts\Entity\WpError;
 
 defined('ABSPATH') || exit;
 

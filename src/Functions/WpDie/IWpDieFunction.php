@@ -1,9 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\CoreContracts\WpDie;
+namespace LunaPress\Wp\CoreContracts\Functions\WpDie;
 
-use LunaPress\Wp\CoreContracts\IWpError;
+use LunaPress\Wp\CoreContracts\Functions\WpDie\IWpDieArgs;
+use LunaPress\Wp\CoreContracts\Entity\WpError\IWpError;
 use LunaPress\FoundationContracts\Support\IExecutableFunction;
 use LunaPress\FoundationContracts\Support\WpFunction\WpArray;
 
