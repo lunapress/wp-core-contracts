@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace LunaPress\Wp\CoreContracts\Functions\WpKses;
+namespace LunaPress\Wp\CoreContracts\Function\WpKses;
 
 use LunaPress\FoundationContracts\Support\IFactory;
-use LunaPress\Wp\CoreContracts\Functions\WpKses\IWpKsesFunction;
+use LunaPress\Wp\CoreContracts\Function\WpKses\IWpKsesFunction;
 
 defined('ABSPATH') || exit;
 
