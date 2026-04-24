@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\DTO;
 
-use LunaPress\FoundationContracts\Support\WpFunction\IWpArrayable;
+use LunaPress\FoundationContracts\Support\WpFunction\WpArrayable;
 use LunaPress\FoundationContracts\Support\WpFunction\WpUnset;
 
-final readonly class WpDieArgs implements IWpArrayable
+final readonly class WpDieArgs implements WpArrayable
 {
     public function __construct(
         private WpUnset|int $response = WpUnset::Value,

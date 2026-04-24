@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace LunaPress\Wp\CoreContracts\DTO;
 
-interface IWpError
+interface WpError
 {
     public function getErrorCode(): string;
 
